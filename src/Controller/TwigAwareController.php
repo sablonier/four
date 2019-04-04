@@ -37,7 +37,6 @@ class TwigAwareController extends AbstractController
     {
         $this->snippetManager = $snippetManager;
 
-        $this->snippetManager->registerSnippet('Foo', 'bar');
         $this->snippetManager->registerBoltSnippets();
     }
 
